@@ -1,0 +1,11 @@
+.square {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  border-top: 1px solid grey;
+  border-right: 1px solid grey;
+
+  &Marked {
+    background-color: #27B7FF;
+  }
+}

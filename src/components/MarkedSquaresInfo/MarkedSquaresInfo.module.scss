@@ -1,0 +1,15 @@
+.title {
+  margin: 0 0 20px;
+}
+
+.info {
+  background-color: #fdfdd6;
+  border: 1px solid #fcc223;
+  border-radius: 10px;
+  padding: 7px 0;
+  color: #856202;
+
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}

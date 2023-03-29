@@ -1,0 +1,26 @@
+.board {
+  display: grid;
+  width: max-content;
+  margin: 0 auto;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+
+  &Size_5 {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+
+  &Size_10 {
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+  }
+
+  &Size_15 {
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+  }
+
+  &Blocked {
+    pointer-events: none;
+  }
+}
