@@ -2,7 +2,7 @@ import styles from "./MarkedSquaresInfo.module.scss";
 
 const MarkedSquaresInfo = ({ markedSquares }) => {
   return (
-    <div>
+    <div className={styles.container}>
       <h2 className={styles.title}>Marked squares</h2>
 
       {!markedSquares.length && (
